@@ -1,0 +1,5 @@
+# Robots.txt for Lasalgaon Onion Chronicle
+User-agent: *
+Allow: /
+
+Sitemap: https://lasalgaon-onion-chronicle.org/sitemap.xml

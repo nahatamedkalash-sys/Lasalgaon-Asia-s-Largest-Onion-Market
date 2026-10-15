@@ -1,0 +1,6 @@
+{
+  "name": "Lasalgaon Onion Chronicle",
+  "description": "The premier agricultural journalism and market intelligence platform for the Lasalgaon Onion Market in Maharashtra, India — Asia's largest onion trading hub.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
