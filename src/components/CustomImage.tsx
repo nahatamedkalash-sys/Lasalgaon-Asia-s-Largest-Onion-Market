@@ -246,9 +246,7 @@ export const CustomImage: React.FC<CustomImageProps> = ({
               height={height}
               loading={priority ? 'eager' : 'lazy'}
               decoding="async"
-              referrerPolicy="no-referrer"
-              // @ts-expect-error fetchpriority attribute is supported in modern browsers
-              fetchpriority={priority ? 'high' : 'auto'}
+              fetchPriority={priority ? 'high' : 'auto'}
               onLoad={handleImageLoad}
               onError={handleImageError}
               className={`w-full h-full ${objectFitClass} transition-all duration-700 ease-out ${
